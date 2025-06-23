@@ -20,6 +20,10 @@ df.loc[len(df.index)] = new_row_loc1
 new_row_loc2 = {'Name': 'GF2', 'Age': 30, 'City': 'City2'}
 df.loc[len(df.index)] = new_row_loc2
 
+
+new_row_loc4 = {'Name': 'Rekha', 'Age': 40, 'City': 'Jaipur'}
+df.loc[len(df.index)] = new_row_loc4
+
 # Ensure the "data" directory exists at the root level
 data_dir = 'data'
 os.makedirs(data_dir, exist_ok=True)
